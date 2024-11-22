@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadDWBigData.WorkerService
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadDWBigData.Data", "LoadDWBigData.Data\LoadDWBigData.Data.csproj", "{A6B484D9-A285-4513-BD9B-93377962B292}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadDWBigData.Model", "LoadDWBigData.Model\LoadDWBigData.Model.csproj", "{87708497-7045-49C9-A611-182F080D0ECF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A6B484D9-A285-4513-BD9B-93377962B292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6B484D9-A285-4513-BD9B-93377962B292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6B484D9-A285-4513-BD9B-93377962B292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87708497-7045-49C9-A611-182F080D0ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87708497-7045-49C9-A611-182F080D0ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87708497-7045-49C9-A611-182F080D0ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87708497-7045-49C9-A611-182F080D0ECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
