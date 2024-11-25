@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LoadDWBigData.Data.Entities.DwSales;
 
-[Table("FactVenta", Schema = "DWH")]
+[Table("FactVentas", Schema = "DWH")]
 public class FactVenta
 {
     [Key]

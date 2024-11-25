@@ -10,6 +10,4 @@ public class FactVentasPorCliente
     public string ClienteId { get; set; }
 
     public decimal? TotalVenta { get; set; }
-
-    public virtual DimCliente Cliente { get; set; }
 }

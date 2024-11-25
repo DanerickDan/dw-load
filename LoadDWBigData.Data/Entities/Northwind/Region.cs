@@ -2,6 +2,8 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LoadDWBigData.Data.Entities.Northwind;
+
+[Table("Region")]
 public class Region
 {
     [Key]

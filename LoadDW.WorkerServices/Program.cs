@@ -19,7 +19,7 @@ namespace LoadDW.WorkerServices
                 services.AddDbContextPool<NorthwindContext>(opt =>
                     opt.UseSqlServer(hostContext.Configuration.GetConnectionString("DbNorthWindConnection")));
 
-                services.AddDbContextPool<DbSalesContext>(opt =>
+                services.AddDbContextPool<DbOrdersContext>(opt =>
                 opt.UseSqlServer(hostContext.Configuration.GetConnectionString("DbSalesConnection")));
 
                 services.AddScoped<ILoadDwService, LoadDwService>();
